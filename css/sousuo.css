@@ -1,0 +1,63 @@
+.box{
+	width: 320px ;
+	height: 30px;
+	position: absolute;
+	right: 20px;
+	top: 25px;
+}
+.search{
+	width: 300px ;
+	height: 30px;
+	color: #3a3a3a;
+	padding-left: 20px;
+	border-radius: 15px;
+	border: none;
+	background-color: #F5F5f5;
+	position: absolute;
+	outline: none;//去除选中的边框
+}
+.box span{
+	color: #999999;
+	font-size: 12px;
+	line-height: 30px;
+	position: absolute;
+}
+.box span:nth-child(3){
+	right: 45px;	
+}
+.box span:nth-child(4){
+	right: 153px;	
+}
+.box span:hover{
+	cursor: pointer;
+	color: black;
+}
+.circle{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	border-radius: 15px;
+	background-color: #666666;
+	background: url(../img/a.png) no-repeat center;
+	background-size: 
+}
+.circle-bg{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	border-radius: 15px;
+	background-color: #666666;
+}
+.search-img{
+	position: absolute;
+	left: 8px;
+	top: 8px;
+}
+.circle:hover{
+	cursor: pointer;
+}
+input:focus~span{
+	display: none;
+}
